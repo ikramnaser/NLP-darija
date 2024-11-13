@@ -4,10 +4,10 @@ import re
 def preprocess(text):
     text = text.lower()
     text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation
-    return text
+    return text.strip()  # Ensure to strip whitespace
 
-# Update file path to point to your cloned sentences.csv file
-data_file = 'sentences.csv'
+# Update file path to point to your sentences.csv file
+data_file = r"C:\Users\ikry\OneDrive\Documents\GitHub\NLP-darija\sentences.csv"
 
 # Read sentences from the data file and preprocess
 darija_sentences = []
@@ -18,8 +18,9 @@ try:
         reader = csv.reader(f)
         next(reader)  # Skip header row if exists
         for row in reader:
-            darija_sentences.append(preprocess(row[0].strip()))  # Adjust indexing based on your file structure
-            english_sentences.append(preprocess(row[1].strip()))  # Adjust indexing based on your file structure
+            if len(row) >= 2:  # Ensure there are at least two columns
+                darija_sentences.append(preprocess(row[0]))
+                english_sentences.append(preprocess(row[1]))
 
     # Save preprocessed data
     with open('data/darija_clean.txt', 'w', encoding='utf-8') as f_darija:
@@ -33,3 +34,4 @@ except FileNotFoundError:
     print(f"Error: File '{data_file}' not found. Please check the file path.")
 except Exception as e:
     print(f"Error: {e}")
+
