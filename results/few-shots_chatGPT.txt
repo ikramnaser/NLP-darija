@@ -1,0 +1,87 @@
+# Text = Gouli daba ch7al men wehda galssa tsift lia des pics men cellulaire
+1   Gouli   Gouli   VERB   _   _   0   root    _   _
+2   daba    daba    ADV    _   _   1   advmod  _   _
+3   ch7al   ch7al   NOUN   _   _   1   obj     _   _
+4   men     men     ADP    _   _   3   case    _   _
+5   wehda   wehda   NOUN   _   _   3   nmod    _   _
+6   galssa  galssa  NOUN   _   _   1   nsubj   _   _
+7   tsift   tsift   VERB   _   _   1   conj    _   _
+8   lia     lia     PRON   _   _   7   obj     _   _
+9   des     des     DET    _   _   10   det     _   _
+10  pics   pics    NOUN   _   _   7   obj     _   _
+11  men     men     ADP    _   _   10   case    _   _
+12  cellulaire cellulaire NOUN _   _   10   obl     _   _
+
+# Text = Kay3amlouni bhal chi criminel Kanbanlihoum bouhdi phénomène
+1   Kay3amlouni   Kay3amlouni   VERB   _   _   0   root    _   _
+2   bhal          bhal           ADP    _   _   1   case    _   _
+3   chi           chi            DET    _   _   4   det     _   _
+4   criminel      criminel       NOUN   _   _   2   obl     _   _
+5   Kanbanlihoum  Kanbanlihoum   VERB   _   _   0   root    _   _
+6   bouhdi        bouhdi         NOUN   _   _   5   obj     _   _
+7   phénomène     phénomène      NOUN   _   _   5   obj     _   _
+
+# Text = Bghaw iteyhouni iherssouni sans résultat basta ghir goulihoum No-no
+1   Bghaw       Bghaw        VERB   _   _   0   root    _   _
+2   iteyhouni   iteyhouni    VERB   _   _   1   conj    _   _
+3   iherssouni  iherssouni   VERB   _   _   2   conj    _   _
+4   sans        sans         ADP    _   _   5   case    _   _
+5   résultat    résultat     NOUN   _   _   3   obj     _   _
+6   basta       basta         ADV    _   _   5   advmod  _   _
+7   ghir        ghir          ADV    _   _   8   advmod  _   _
+8   goulihoum   goulihoum     VERB   _   _   5   conj    _   _
+9   No-no       No-no         NOUN   _   _   8   obj     _   _
+
+# Text = Flous d'l'3am katji f'la semaine
+1   Flous    Flous   NOUN   _   _   0   root    _   _
+2   d'l'3am  d'l'3am  NOUN   _   _   1   nmod    _   _
+3   katji    katji   VERB   _   _   0   root    _   _
+4   f'la     f'la    ADP    _   _   3   case    _   _
+5   semaine  semaine NOUN   _   _   3   obl     _   _
+
+
+# Text = Tout l'temps kan rappi ma vie
+1   Tout     Tout     DET    _   _   0   root    _   _
+2   l'temps  l'temps  NOUN   _   _   1   nmod    _   _
+3   kan      kan      VERB   _   _   0   root    _   _
+4   rappi    rappi    NOUN   _   _   3   obj     _   _
+5   ma       ma       PRON   _   _   4   nmod    _   _
+6   vie      vie      NOUN   _   _   5   obj     _   _
+
+
+# Text = Dima f'bali ma mère, kami jwani face la mer
+1   Dima       Dima       ADV   _   _   0   root    _   _
+2   f'bali     f'bali     NOUN  _   _   1   obl     _   _
+3   ma         ma         PART  _   _   4   advmod  _   _
+4   mère       mère       NOUN  _   _   1   obj     _   _
+5   kami       kami       VERB  _   _   6   nsubj   _   _
+6   jwani      jwani      VERB  _   _   4   conj    _   _
+7   face       face       NOUN  _   _   6   obj     _   _
+8   la         la         DET   _   _   7   det     _   _
+9   mer        mer        NOUN  _   _   7   nmod    _   _
+
+# Text = Drari daro lfalta teb3ou l'papiers
+1   Drari     Drari     NOUN   _   _   0   root    _   _
+2   daro      daro      VERB   _   _   1   nsubj   _   _
+3   lfalta    lfalta    NOUN   _   _   2   obj     _   _
+4   teb3ou    teb3ou    VERB   _   _   2   conj    _   _
+5   l'papiers l'papiers NOUN   _   _   4   obj     _   _
+
+# Text = sowweltini ngoullek va bien malgré ga3 drabi f galbi ba9yin
+1   sowweltini sowweltini VERB   _   _   0   root    _   _
+2   ngoullek   ngoullek   VERB   _   _   1   conj    _   _
+3   va         va         ADV    _   _   1   advmod  _   _
+4   bien       bien       ADV    _   _   3   advmod  _   _
+5   malgré     malgré     ADP    _   _   6   case    _   _
+6   ga3        ga3        NOUN   _   _   4   nmod    _   _
+7   drabi      drabi      NOUN   _   _   6   obl     _   _
+8   f          f          ADP    _   _   9   case    _   _
+9   galbi      galbi      NOUN   _   _   7   nmod    _   _
+10  ba9yin     ba9yin     VERB   _   _   9   conj    _   _
+
+# Text = Mama! 7egrouni galou ghi africain
+1   Mama!     Mama!      NOUN   _   _   0   root    _   _
+2   7egrouni   7egrouni   VERB   _   _   1   nsubj   _   _
+3   galou     galou      VERB   _   _   1   conj    _   _
+4   ghi       ghi        ADV    _   _   3   advmod  _   _
+5   africain  africain   NOUN   _   _   4   obj     _   _
