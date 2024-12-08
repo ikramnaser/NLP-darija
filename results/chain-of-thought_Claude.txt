@@ -1,0 +1,83 @@
+# Sentence 1: Gouli daba ch7al men wehda galssa tsift lia des pics men cellulaire
+1	Gouli	gouli	VERB	_	_	0	root	_	_
+2	daba	daba	ADV	_	_	1	advmod	_	_
+3	ch7al	ch7al	NUM	_	_	4	nummod	_	_
+4	men	men	NUM	_	_	5	nummod	_	_
+5	wehda	wehda	NOUN	_	_	1	obj	_	_
+6	galssa	galssa	VERB	_	_	1	parataxis	_	_
+7	tsift	tsift	VERB	_	_	6	xcomp	_	_
+8	lia	lia	PRON	_	_	7	iobj	_	_
+9	des	des	DET	_	_	10	det	_	_
+10	pics	pics	NOUN	_	_	7	obj	_	_
+11	men	men	ADP	_	_	12	case	_	_
+12	cellulaire	cellulaire	NOUN	_	_	10	nmod	_	_
+
+# Sentence 2: Kay3amlouni bhal chi criminel Kanbanlihoum bouhdi phénomène
+1	Kay3amlouni	kay3amlouni	VERB	_	_	0	root	_	_
+2	bhal	bhal	ADP	_	_	3	case	_	_
+3	chi	chi	NOUN	_	_	1	obl	_	_
+4	criminel	criminel	NOUN	_	_	3	nmod	_	_
+5	Kanbanlihoum	kanbanlihoum	VERB	_	_	1	parataxis	_	_
+6	bouhdi	bouhdi	NOUN	_	_	5	obj	_	_
+7	phénomène	phénomène	NOUN	_	_	6	nmod	_	_
+
+# Sentence 3: Bghaw iteyhouni iherssouni sans résultat basta ghir goulihoum No-no
+1	Bghaw	bghaw	VERB	_	_	0	root	_	_
+2	iteyhouni	iteyhouni	VERB	_	_	1	xcomp	_	_
+3	iherssouni	iherssouni	VERB	_	_	1	xcomp	_	_
+4	sans	sans	ADP	_	_	5	case	_	_
+5	résultat	résultat	NOUN	_	_	2	obl	_	_
+6	basta	basta	INTJ	_	_	1	discourse	_	_
+7	ghir	ghir	PART	_	_	8	advmod	_	_
+8	goulihoum	goulihoum	VERB	_	_	1	parataxis	_	_
+9	No-no	no-no	INTJ	_	_	1	discourse	_	_
+
+# Sentence 4: Flous d'l'3am katji f'la semaine
+1	Flous	flous	NOUN	_	_	2	nmod	_	_
+2	d'l'3am	d'l'3am	NOUN	_	_	3	nmod	_	_
+3	katji	katji	VERB	_	_	0	root	_	_
+4	f'la	f'la	ADP	_	_	5	case	_	_
+5	semaine	semaine	NOUN	_	_	3	obl	_	_
+
+# Sentence 5: Tout l'temps kan rappi ma vie
+1	Tout	tout	DET	_	_	2	det	_	_
+2	l'temps	l'temps	NOUN	_	_	3	nsubj	_	_
+3	kan	kan	VERB	_	_	0	root	_	_
+4	rappi	rappi	NOUN	_	_	3	obj	_	_
+5	ma	ma	PRON	_	_	6	nmod	_	_
+6	vie	vie	NOUN	_	_	4	nmod	_	_
+
+# Sentence 6: f'bali ma mère, kami jwani face la mer
+1	f'bali	f'bali	ADP	_	_	2	case	_	_
+2	mère	mère	NOUN	_	_	0	root	_	_
+3	kami	kami	PART	_	_	4	advmod	_	_
+4	jwani	jwani	VERB	_	_	2	parataxis	_	_
+5	face	face	ADP	_	_	6	case	_	_
+6	la	la	NOUN	_	_	4	obl	_	_
+7	mer	mer	NOUN	_	_	6	nmod	_	_
+
+# Sentence 7: Drari daro lfalta teb3ou l'papiers
+1	Drari	drari	NOUN	_	_	2	nsubj	_	_
+2	daro	daro	VERB	_	_	0	root	_	_
+3	lfalta	lfalta	NOUN	_	_	2	obj	_	_
+4	teb3ou	teb3ou	VERB	_	_	2	xcomp	_	_
+5	l'papiers	l'papiers	NOUN	_	_	4	obj	_	_
+
+# Sentence 8: sowweltini ngoullek va bien malgré ga3 drabi f galbi ba9yin
+1	sowweltini	sowweltini	VERB	_	_	0	root	_	_
+2	ngoullek	ngoullek	VERB	_	_	1	xcomp	_	_
+3	va	va	VERB	_	_	2	aux	_	_
+4	bien	bien	ADV	_	_	3	advmod	_	_
+5	malgré	malgré	ADP	_	_	6	case	_	_
+6	ga3	ga3	NOUN	_	_	3	obl	_	_
+7	drabi	drabi	NOUN	_	_	6	nmod	_	_
+8	f	f	ADP	_	_	9	case	_	_
+9	galbi	galbi	NOUN	_	_	7	nmod	_	_
+10	ba9yin	ba9yin	VERB	_	_	1	parataxis	_	_
+
+# Sentence 9: Mama! 7egrouni galou ghi africain
+1	Mama	mama	NOUN	_	_	0	vocative	_	_
+2	7egrouni	7egrouni	VERB	_	_	1	parataxis	_	_
+3	galou	galou	VERB	_	_	2	xcomp	_	_
+4	ghi	ghi	PART	_	_	5	advmod	_	_
+5	africain	africain	ADJ	_	_	3	xcomp	_	_
