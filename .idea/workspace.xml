@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6220d26-842f-437e-8ff6-6d3260fcfe9d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/data/sentences.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_project.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/my_project.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songs_scraping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/songs_scraping.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -68,6 +71,7 @@
       <workItem from="1731518850101" duration="70000" />
       <workItem from="1731676574173" duration="616000" />
       <workItem from="1732703017908" duration="780000" />
+      <workItem from="1733680196951" duration="508000" />
     </task>
     <servers />
   </component>
