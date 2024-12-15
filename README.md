@@ -1,3 +1,14 @@
+## What the project does
+Welcome to the NLP-Darija project in which I delve into exploring existing natural language processing techniques tailored for Moroccan Darija, a low-resource language with its unique linguistic challenges in order to perform Moroccan Darija to English Machine Translation. 
+I compare and evaluate the performance of LLMs (GPT-4 and Claude) for sentence level translation, idiomatic expressions and for POS tagging and dependency parsing implementation on code-switched text. 
+
+### Why the project is useful
+This repository serves as a statement to highlight the significant gaps that remain in the NLP community's efforts to support low-resource languages, particularly those that exist in both standardized and non-standardized scripts like Arabizi. 
+
+
+
+
+
 ## Data Statement
 
 Darija Open Dataset (DODa) is an open-source project for the Moroccan dialect, is arguably the largest open-source collaborative project for Darija-English translation.
