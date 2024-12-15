@@ -13,21 +13,21 @@ To investigate code-switching phenomena, I constructed a custom corpus using onl
 The language of my dataset is Moroccan Darija written in Latin script, ary-Latn-MA. For the sake of simplicity and consistency, the dataset focuses on the standard Darija spoken and understood by the majority of Moroccans. And to align with the real-world usage and informal communication, only the Darija written in Latin script will be taken into account.
 
 
-## speaker demographics
+### speaker demographics
 NA
 
-## annotator demographics
+### annotator demographics
 NA
 
-## speech situation
+### speech situation
 NA
 
-## text characteristics
+### text characteristics
 The Arabic script column from the original dataset was excluded to focus solely on the Latin-script representation of Darija. Additionally, idioms and proverbs were consolidated into a single dataset.
 To maintain phonetic clarity and consistency, the dataset adheres to the correspondences and norms detailed in the following tables:
 
-## recording quality
+### recording quality
 NA
 
-## provenance
+### provenance
 NA
