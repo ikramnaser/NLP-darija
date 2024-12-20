@@ -1,9 +1,12 @@
 ## the project
-Welcome to the NLP-Darija project in which I delve into exploring existing natural language processing techniques tailored for Moroccan Darija, a low-resource language with its unique linguistic challenges in order to perform Moroccan Darija to English Machine Translation. 
+Merhaba!! Welcome to the NLP-Darija project in which I delve into exploring existing natural language processing techniques tailored for Moroccan Darija, a low-resource language with its unique linguistic challenges in order to perform Moroccan Darija to English Machine Translation. 
 I compare and evaluate the performance of LLMs (GPT-4 and Claude) for sentence level translation, idiomatic expressions and for POS tagging and dependency parsing implementation on code-switched text. 
 
-### Why the project is useful
+
 This repository serves as a statement to highlight the significant gaps that remain in the NLP community's efforts to support low-resource languages, particularly those that exist in both standardized and non-standardized scripts like Arabizi. 
+In this work I presented the unique challenges and linguistic phenomena inherent to Moroccan Arabic (Darija) and its implications for NLP tasks. By examining large language models through various prompting techniques, I have demonstrated the difficulties posed by Darija's non-standardized orthography, morphological complexity, and heavy influence from languages like Amazigh, French, and Modern Standard Arabic. Additionally, phenomena such as phonetic substitutions using numbers, code-switching, and idiomatic expressions have been shown to further exacerbate translation and analysis complexities for current models.
+
+Through evaluations that combine automatic and human assessments it was possible to indicate that both GPT-4o and Claude are  aligned with reference translations, but they fail to capture nuances such as idiomatic and sarcastic intent. Furthermore, this study underscores the need for tailored tools and datasets that can address Darija's  use in informal settings, including Arabizi. Future work must prioritize the development of dedicated frameworks, culturally-aware idiomatic translations, and enhanced multilingual models that include low-resource varieties like Darija.
 
 
 
@@ -36,6 +39,7 @@ NA
 ### text characteristics
 The Arabic script column from the original dataset was excluded to focus solely on the Latin-script representation of Darija. Additionally, idioms and proverbs were consolidated into a single dataset.
 To maintain phonetic clarity and consistency, the dataset adheres to the correspondences and norms detailed in the following tables:
+
 
 ### recording quality
 NA
