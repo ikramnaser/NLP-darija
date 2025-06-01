@@ -8,10 +8,10 @@ Merhaba! 👋 Welcome to **NLP-Darija** , a project where I explore, analyze, an
 
 In this project, I investigate the **capabilities and limitations of Large Language Models (LLMs)** — including **GPT-4** and **Claude** — for **Moroccan Darija to English Machine Translation**. My evaluation spans:
 
-- 🧠 **Sentence-level translation**
-- 🎭 **Idiomatic and sarcastic expressions**
-- 🧩 **POS tagging and dependency parsing**
-- 🗣️ **Code-switched text analysis (Darija, French, Arabic, Arabizi)**
+-  **Sentence-level translation**
+-  **Idiomatic and sarcastic expressions**
+-  **POS tagging and dependency parsing**
+-  **Code-switched text analysis (Darija, French, Arabic, Arabizi)**
 
 This repository serves as a **call to action** in the NLP community, exposing the critical gaps in support for **non-standardized and underrepresented languages**. Moroccan Darija is particularly challenging due to its:
 
@@ -41,17 +41,15 @@ This repository serves as a **call to action** in the NLP community, exposing th
 
 ## 🔍 Key Insights
 
-- ✅ LLMs like GPT-4 and Claude perform decently on general translation tasks
-- ❌ They **struggle** with:
-  - Sarcasm
-  - Idiomatic expressions
-  - Arabizi (Romanized Arabic)
-  - Context-heavy disambiguation
-
 - 📌 **Translation quality improves with task-specific prompt tuning**
 - ⚠️ No robust open-source **Darija-English parallel corpus** exists
 - 🚨 There is an urgent need for **culturally aware NLP tools** and **dedicated datasets** for Darija and other low-resource dialects
 
+  LLMs like GPT-4 and Claude perform decently on general translation tasks, but **struggle** with:
+  - Sarcasm
+  - Idiomatic expressions
+  - Arabizi (Romanized Arabic)
+  - Context-heavy disambiguation
 ---
 
 ## 🚀 Future Directions
