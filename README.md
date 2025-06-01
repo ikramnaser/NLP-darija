@@ -1,48 +1,72 @@
-## The project
-Merhaba!! Welcome to the NLP-Darija project in which I delve into exploring existing natural language processing techniques tailored for Moroccan Darija, a low-resource language with its unique linguistic challenges in order to perform Moroccan Darija to English Machine Translation. 
-I compare and evaluate the performance of LLMs (GPT-4 and Claude) for sentence level translation, idiomatic expressions and for POS tagging and dependency parsing implementation on code-switched text. 
+# 🌍 NLP for Moroccan Darija — Tackling Low-Resource Machine Translation
 
+Merhaba! 👋 Welcome to **NLP-Darija** , a project where I explore, analyze, and challenge the boundaries of current Natural Language Processing (NLP) techniques by focusing on **Moroccan Darija**, a rich yet low-resource language.
 
-This repository serves as a statement to highlight the significant gaps that remain in the NLP community's efforts to support low-resource languages, particularly those that exist in both standardized and non-standardized scripts like Arabizi. 
-In this work I presented the unique challenges and linguistic phenomena inherent to Moroccan Arabic and its implications for NLP tasks by examining large language models through various prompting techniques. I have demonstrated the difficulties posed by Darija's non-standardized orthography, morphological complexity, and heavy influence from languages like Amazigh, French, and Modern Standard Arabic. Additionally, phenomena such as phonetic substitutions using numbers, code-switching, and idiomatic expressions have been shown to further exacerbate translation and analysis complexities for current models.
+---
 
-Through evaluations that combine automatic and human assessments it was possible to indicate that both GPT-4o and Claude are  aligned with reference translations, but they fail to capture nuances such as idiomatic and sarcastic intent. Furthermore, this study underscores the need for tailored tools and datasets that can address Darija's  use in informal settings, including Arabizi. Future work must prioritize the development of dedicated frameworks, culturally-aware idiomatic translations, and enhanced multilingual models that include low-resource varieties like Darija.
+## 🎯 Project Overview
 
+In this project, I investigate the **capabilities and limitations of Large Language Models (LLMs)** — including **GPT-4** and **Claude** — for **Moroccan Darija to English Machine Translation**. My evaluation spans:
 
+- 🧠 **Sentence-level translation**
+- 🎭 **Idiomatic and sarcastic expressions**
+- 🧩 **POS tagging and dependency parsing**
+- 🗣️ **Code-switched text analysis (Darija, French, Arabic, Arabizi)**
 
+This repository serves as a **call to action** in the NLP community, exposing the critical gaps in support for **non-standardized and underrepresented languages**. Moroccan Darija is particularly challenging due to its:
 
+- Non-standardized orthography (including Arabizi)
+- Morphological complexity
+- Heavy linguistic borrowing from **Amazigh**, **French**, and **Modern Standard Arabic**
+- Frequent **code-switching**
+- Unique **phonetic substitutions using numbers** (e.g., 7 = ح)
 
-## Data Statement
+---
 
-Darija Open Dataset (DODa) is an open-source project for the Moroccan dialect, is arguably the largest open-source collaborative project for Darija-English translation.
-DODa contains more than 10 thousand entries covering verbs, nouns, adjectives, verb-to-noun, singular to-plural correspondences, conjugations of hundreds of verbs in different tenses. The Dataset is also divided into specialized subcategories such as food, animals, human body, health, education, family, environment, economy and many others. Besides semantic categorization, it presents words under different spellings, offers verb-to-noun and masculine-to-feminine correspondences, extra categories for idioms, proverbs and short expressions, as well as more that 86,000 translated sentences.
+## 🧪 What I Did
 
+### 🧰 Tools & Techniques
+- Syntax parsing with LLMs for **POS tagging** and **dependency parsing**
+- Prompt engineering with **OpenAI GPT-4** and **Anthropic Claude**
+- Evaluation via **human assessments** + **automatic metrics**
+- Linguistic analysis of **idioms**, **sarcasm**, and **phonetic variation**
 
-### curation rationale
-My curation prioritized linguistic phenomena relevant to my project goals namely investigating spelling variations, and syntactic challenges in code-switching. Specifically, the dataset includes 65 idioms and proverbs, 241 words under different spellings and almost 46k translated sentences.
-To investigate code-switching phenomena, I constructed a custom corpus using online sources. To extract song lyrics, I scraped the website genius.com through the Genius API, used multiple queries to extract song lyrics by Moroccan artists who are known to include many instances of Code Switching in their words. Moroccan Darija was the main (matrix) language while other languages such as French and English were present as guest (embedded) languages.
+### 📊 Evaluation
+- Compared LLM translations to human-annotated reference sets
+- Highlighted failure points on idiomatic expressions and sarcasm
+- Demonstrated how **prompt design** directly impacts translation quality
+- Assessed how **LLMs handle Arabizi and code-switching**
 
+---
 
-### language variety
-The language of my dataset is Moroccan Darija written in Latin script, ary-Latn-MA. For the sake of simplicity and consistency, the dataset focuses on the standard Darija spoken and understood by the majority of Moroccans. And to align with the real-world usage and informal communication, only the Darija written in Latin script will be taken into account.
+## 🔍 Key Insights
 
+- ✅ LLMs like GPT-4 and Claude perform decently on general translation tasks
+- ❌ They **struggle** with:
+  - Sarcasm
+  - Idiomatic expressions
+  - Arabizi (Romanized Arabic)
+  - Context-heavy disambiguation
 
-### speaker demographics
-NA
+- 📌 **Translation quality improves with task-specific prompt tuning**
+- ⚠️ No robust open-source **Darija-English parallel corpus** exists
+- 🚨 There is an urgent need for **culturally aware NLP tools** and **dedicated datasets** for Darija and other low-resource dialects
 
-### annotator demographics
-NA
+---
 
-### speech situation
-NA
+## 🚀 Future Directions
 
-### text characteristics
-The Arabic script column from the original dataset was excluded to focus solely on the Latin-script representation of Darija. Additionally, idioms and proverbs were consolidated into a single dataset.
-To maintain phonetic clarity and consistency, the dataset adheres to the correspondences and norms detailed in the following tables:
+- Build a **Darija-English fine-tuned model**
+- Create a **parallel corpus** including Arabizi
+- Develop **idiom-aware translation modules**
+- Evaluate **multimodal LLMs** on low-resource dialects
 
+---
 
-### recording quality
-NA
+## 👩‍💻 About Me
 
-### provenance
-NA
+This project is part of my ongoing mission to bridge the digital gap for **underrepresented languages** in the AI space. As a Data Scientist passionate about **multilingual NLP**, **machine learning**, and **ethical AI**, I'm especially interested in designing solutions that are inclusive and culturally aware.
+
+---
+
+> 🤝 Let's make AI work for *all* languages — not just the well-resourced ones.
